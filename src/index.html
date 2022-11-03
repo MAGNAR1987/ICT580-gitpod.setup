@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Set tab title and favicon -->
-    <title>Hello</title>
-    <link rel="icon" type="image/x-icon" href="./src/assets/img/favicon.ico" />
-
-    <!-- Load Font Awesome for Cool Fonts  -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-
-    <!-- Load local Style Sheets -->
-    <link rel="stylesheet" href="./src/assets/css/style.css" />
+    <title>JSR Resume</title>
+    <!--added some css to customize de colors and font-->
+    <link rel="stylesheet" href="src/assets/css/style.css" />
+    <!--this image was upload to the assests/img section from my pc-->
+    <link rel="icon" type="image/x-icon" href="/src/assets/img/FAVICON.jpg" />
   </head>
+  <div id="header"></div>
+  <div class="left"></div>
+  <div class="content">
+    <!--this image was uploaded to the assests/img section from my pc-->
+    <img style="border-radius:10px;" alt="Photo of Juan Sebastian Rivera" width
+    ="100" src=/src/assets/img/Ucalgary-Photo2.jpg>
 
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello World!</h1>
+    <h1>Resume</h1>
+    <br />
+    <br />
+    <h2>Juan Sebastian Rivera</h2>
+    <hr />
+    <h3>Graphic Designer</h3>
+    <br />
+    <p class="head"><b>Personal Information</b></p>
+    <hr />
+    <br />
+    <b>Address:</b> 950 McPherson Square NE,Calgary,AB
+    <br />
+    <b>Email:</b> rivera.jsebastian@gmail.com
+    <br />
+    <b>Phone:</b> 587-9684173
 
-      <img src="./src/assets/img/HelloWorld.jpg" />
+    <!--bold titles to show hierarchy-->
+    <p class="head"><b>Professional Experience</b></p>
+    <hr />
+    <ul>
+      <li>
+        <b>Burst Digital / Senior Creative Designer 2022/present</b>
+        <p>
+          Graphic department coordinator in charge of supervising that all
+          graphic assets created are on line with the company imagery and brand
+          guidelines.
+        </p>
+      </li>
+      <li>
+        <b>Dingus & Zazzy / Senior Graphic Designer 2022/present</b>
+        <p>
+          Consultant to creative projects and various graphic social media
+          content development.
+        </p>
+      </li>
+      <li>
+        <b>Mercadia Marketing / Creative Director 2019/2020</b>
+        <p>
+          Group oriented work environment focused on creating digital marketing
+          campaigns for various social media.
+        </p>
+      </li>
+      <li>
+        <b>ESAP Communication Department Coordinator 2016/2019</b>
+        <p>
+          In charge of revising all incoming and outgoing content regarding the
+          ESAP branding and making sure it was all aligned to their
+          communication standards.Also had the chance to work with a great team
+          of 16 people with them we managed to create a lot of succesful
+          advertising campaigns.
+        </p>
+      </li>
+    </ul>
+    <p class="head"><b>Education</b></p>
+    <hr />
+    <!--added a separator-->
+    <ul>
+      <li>
+        <b>University of Calgary 2022 - present</b>
+        <p>Digital Media & Marketing.</p>
+      </li>
+      <li>
+        <b>University Jorge Tadeo Lozano 2018 -2019</b>
+        <p>Post-graduate Degree in Project Design & Management.</p>
+      </li>
+      <li>
+        <b>University Autonoma de Occidente 2005 -2011</b>
+        <p>Bachelors Degree in Advertisement & Communication.</p>
+      </li>
+    </ul>
 
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by [insert your name here]
-      </div>
-    </div>
-  </body>
+    <!--Placed a footer here to complete the design-->
+  </div>
+  <div class="center"></div>
+  <div id="footer">
+    <h2 id="name">Juan Sebastian Rivera</h2>
+  </div>
 </html>
